@@ -1,0 +1,120 @@
+form {
+  margin-top: 50px;
+}
+form button {
+  background-color: rgb(7, 88, 210);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 40px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+form button:hover {
+  background-color: rgb(6, 64, 200);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 40px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+}
+table tr {
+  display: block;
+}
+table tr td {
+  display: flex;
+}
+table tr td img {
+  height: 70px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  transition: all 0.3s;
+}
+table tr td img:hover {
+  height: 75px;
+  position: relative;
+}
+table tr td .judul {
+  color: rgb(7, 88, 210);
+  font-family: Poppins;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+}
+table tr td label {
+  font-family: Poppins;
+  font-size: 13px;
+  padding-top: 12px;
+}
+table tr td input {
+  background-color: rgb(226, 229, 234);
+  border: none;
+  width: 230px;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  color: grey;
+}
+table tr td input:focus {
+  background-color: rgb(226, 229, 234);
+  border: none;
+  outline: none;
+}
+
+footer {
+  color: gray;
+  font-family: Poppins;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.notif {
+  font-family: Poppins;
+  color: rgb(7, 88, 210);
+}
+
+.lihat {
+  background-color: rgb(7, 200, 10);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 40px;
+  padding: 0px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.table-data-buku {
+  font-family: Poppins;
+  width: 100%;
+  border-color: rgb(7, 88, 210);
+}
+.table-data-buku tr {
+  display: flex;
+}
+.table-data-buku tr .no {
+  width: 300px;
+}
+.table-data-buku tr th {
+  width: 100%;
+  background-color: rgb(7, 88, 210);
+  color: white;
+}
+.table-data-buku tr td {
+  border: 1px solid rgb(112, 112, 112);
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
